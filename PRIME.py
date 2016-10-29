@@ -13,15 +13,14 @@
 #print is_prime(35)
 
 def is_prime(num):
-	#for num in range(2,num):
-	#	prime =True;
+	for num in range(2,num):
+		prime =True;
 		for i in range(2,num):
 			if num%i==0:
 				prime=False;
 
-			else: 
-				prime=True;
+		
 		if prime:
-			print num
+			print (num)
 
 is_prime(20);
